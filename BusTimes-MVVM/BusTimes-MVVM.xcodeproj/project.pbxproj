@@ -16,6 +16,8 @@
 		33BE5C5829C0C4C300A23BE6 /* BusStopEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5229C0C4C300A23BE6 /* BusStopEndpoints.swift */; };
 		33BE5C5929C0C4C300A23BE6 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5329C0C4C300A23BE6 /* Coordinates.swift */; };
 		33BE5C5A29C0C4C300A23BE6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5429C0C4C300A23BE6 /* NetworkManager.swift */; };
+		33BE5C5E29C0C50300A23BE6 /* ArrivalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5C29C0C50300A23BE6 /* ArrivalTime.swift */; };
+		33BE5C5F29C0C50300A23BE6 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5D29C0C50300A23BE6 /* BusStop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		33BE5C5229C0C4C300A23BE6 /* BusStopEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopEndpoints.swift; sourceTree = "<group>"; };
 		33BE5C5329C0C4C300A23BE6 /* Coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		33BE5C5429C0C4C300A23BE6 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		33BE5C5C29C0C50300A23BE6 /* ArrivalTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTime.swift; sourceTree = "<group>"; };
+		33BE5C5D29C0C50300A23BE6 /* BusStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,9 @@
 		33BE5C3F29C0C3BF00A23BE6 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				33BE5C4029C0C3BF00A23BE6 /* BusTimes_MVVMApp.swift */,
 				33BE5C4E29C0C47F00A23BE6 /* API */,
+				33BE5C5B29C0C4EF00A23BE6 /* Domain */,
+				33BE5C4029C0C3BF00A23BE6 /* BusTimes_MVVMApp.swift */,
 				33BE5C4429C0C3C100A23BE6 /* Assets.xcassets */,
 				33BE5C4629C0C3C100A23BE6 /* Preview Content */,
 			);
@@ -88,6 +93,15 @@
 				33BE5C5429C0C4C300A23BE6 /* NetworkManager.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		33BE5C5B29C0C4EF00A23BE6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				33BE5C5C29C0C50300A23BE6 /* ArrivalTime.swift */,
+				33BE5C5D29C0C50300A23BE6 /* BusStop.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +178,9 @@
 				33BE5C5829C0C4C300A23BE6 /* BusStopEndpoints.swift in Sources */,
 				33BE5C5629C0C4C300A23BE6 /* Networkable.swift in Sources */,
 				33BE5C5A29C0C4C300A23BE6 /* NetworkManager.swift in Sources */,
+				33BE5C5E29C0C50300A23BE6 /* ArrivalTime.swift in Sources */,
 				33BE5C5929C0C4C300A23BE6 /* Coordinates.swift in Sources */,
+				33BE5C5F29C0C50300A23BE6 /* BusStop.swift in Sources */,
 				33BE5C5729C0C4C300A23BE6 /* Endpoints.swift in Sources */,
 				33BE5C5529C0C4C300A23BE6 /* APIError.swift in Sources */,
 			);
