@@ -16,9 +16,6 @@ struct BusStopView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Arrival Times")
-                    .font(.system(size: 36, weight: .black))
-                    .padding(.top, 70)
                 List {
                     ForEach(0..<viewModel.busStops.count, id: \.self) { index in
                         let busStop = viewModel.busStops[index]
@@ -30,6 +27,7 @@ struct BusStopView: View {
                 }
                 .padding(.top, 10)
             }
+            .navigationTitle("Bus stops")
             .sheet(item: $selectedBusStop) { busStop in
                 ArrivalTimeView(busTopID: busStop.naptanId)
             }
