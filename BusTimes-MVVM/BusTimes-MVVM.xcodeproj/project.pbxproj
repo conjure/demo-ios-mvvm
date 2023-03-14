@@ -25,6 +25,7 @@
 		33BE5C6E29C0C62C00A23BE6 /* ArrivalTimeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6B29C0C62C00A23BE6 /* ArrivalTimeRow.swift */; };
 		33BE5C6F29C0C62C00A23BE6 /* ArrivalTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6C29C0C62C00A23BE6 /* ArrivalTimeViewModel.swift */; };
 		33BE5C7029C0C62C00A23BE6 /* ArrivalTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6D29C0C62C00A23BE6 /* ArrivalTimeView.swift */; };
+		33BE5C7229C0C73400A23BE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C7129C0C73400A23BE6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		33BE5C6B29C0C62C00A23BE6 /* ArrivalTimeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTimeRow.swift; sourceTree = "<group>"; };
 		33BE5C6C29C0C62C00A23BE6 /* ArrivalTimeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTimeViewModel.swift; sourceTree = "<group>"; };
 		33BE5C6D29C0C62C00A23BE6 /* ArrivalTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTimeView.swift; sourceTree = "<group>"; };
+		33BE5C7129C0C73400A23BE6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				33BE5C5B29C0C4EF00A23BE6 /* Domain */,
 				33BE5C6229C0C5C800A23BE6 /* View */,
 				33BE5C6029C0C55F00A23BE6 /* LocationService.swift */,
+				33BE5C7129C0C73400A23BE6 /* Constants.swift */,
 				33BE5C4029C0C3BF00A23BE6 /* BusTimes_MVVMApp.swift */,
 				33BE5C4429C0C3C100A23BE6 /* Assets.xcassets */,
 				33BE5C4629C0C3C100A23BE6 /* Preview Content */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33BE5C4129C0C3BF00A23BE6 /* BusTimes_MVVMApp.swift in Sources */,
+				33BE5C7229C0C73400A23BE6 /* Constants.swift in Sources */,
 				33BE5C5829C0C4C300A23BE6 /* BusStopEndpoints.swift in Sources */,
 				33BE5C6129C0C55F00A23BE6 /* LocationService.swift in Sources */,
 				33BE5C6E29C0C62C00A23BE6 /* ArrivalTimeRow.swift in Sources */,
@@ -362,10 +366,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BusTimes-MVVM/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Source/Preview Content\"";
 				DEVELOPMENT_TEAM = 64R63CKBG6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to use your location services, please.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to use your location services, please.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -391,10 +397,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BusTimes-MVVM/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Source/Preview Content\"";
 				DEVELOPMENT_TEAM = 64R63CKBG6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to use your location services, please.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to use your location services, please.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
