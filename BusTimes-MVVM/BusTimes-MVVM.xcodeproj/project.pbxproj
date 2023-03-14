@@ -22,6 +22,9 @@
 		33BE5C6729C0C5FE00A23BE6 /* BusStopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6429C0C5FE00A23BE6 /* BusStopRow.swift */; };
 		33BE5C6829C0C5FE00A23BE6 /* BusStopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6529C0C5FE00A23BE6 /* BusStopViewModel.swift */; };
 		33BE5C6929C0C5FE00A23BE6 /* BusStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6629C0C5FE00A23BE6 /* BusStopView.swift */; };
+		33BE5C6E29C0C62C00A23BE6 /* ArrivalTimeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6B29C0C62C00A23BE6 /* ArrivalTimeRow.swift */; };
+		33BE5C6F29C0C62C00A23BE6 /* ArrivalTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6C29C0C62C00A23BE6 /* ArrivalTimeViewModel.swift */; };
+		33BE5C7029C0C62C00A23BE6 /* ArrivalTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6D29C0C62C00A23BE6 /* ArrivalTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		33BE5C6429C0C5FE00A23BE6 /* BusStopRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopRow.swift; sourceTree = "<group>"; };
 		33BE5C6529C0C5FE00A23BE6 /* BusStopViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopViewModel.swift; sourceTree = "<group>"; };
 		33BE5C6629C0C5FE00A23BE6 /* BusStopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopView.swift; sourceTree = "<group>"; };
+		33BE5C6B29C0C62C00A23BE6 /* ArrivalTimeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTimeRow.swift; sourceTree = "<group>"; };
+		33BE5C6C29C0C62C00A23BE6 /* ArrivalTimeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTimeViewModel.swift; sourceTree = "<group>"; };
+		33BE5C6D29C0C62C00A23BE6 /* ArrivalTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		33BE5C6229C0C5C800A23BE6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				33BE5C6A29C0C61700A23BE6 /* ArrivalTimeView */,
 				33BE5C6329C0C5E400A23BE6 /* BusStopView */,
 			);
 			path = View;
@@ -130,6 +137,16 @@
 				33BE5C6529C0C5FE00A23BE6 /* BusStopViewModel.swift */,
 			);
 			path = BusStopView;
+			sourceTree = "<group>";
+		};
+		33BE5C6A29C0C61700A23BE6 /* ArrivalTimeView */ = {
+			isa = PBXGroup;
+			children = (
+				33BE5C6B29C0C62C00A23BE6 /* ArrivalTimeRow.swift */,
+				33BE5C6D29C0C62C00A23BE6 /* ArrivalTimeView.swift */,
+				33BE5C6C29C0C62C00A23BE6 /* ArrivalTimeViewModel.swift */,
+			);
+			path = ArrivalTimeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,12 +222,15 @@
 				33BE5C4129C0C3BF00A23BE6 /* BusTimes_MVVMApp.swift in Sources */,
 				33BE5C5829C0C4C300A23BE6 /* BusStopEndpoints.swift in Sources */,
 				33BE5C6129C0C55F00A23BE6 /* LocationService.swift in Sources */,
+				33BE5C6E29C0C62C00A23BE6 /* ArrivalTimeRow.swift in Sources */,
 				33BE5C5629C0C4C300A23BE6 /* Networkable.swift in Sources */,
 				33BE5C5A29C0C4C300A23BE6 /* NetworkManager.swift in Sources */,
 				33BE5C6929C0C5FE00A23BE6 /* BusStopView.swift in Sources */,
 				33BE5C6829C0C5FE00A23BE6 /* BusStopViewModel.swift in Sources */,
 				33BE5C5E29C0C50300A23BE6 /* ArrivalTime.swift in Sources */,
 				33BE5C5929C0C4C300A23BE6 /* Coordinates.swift in Sources */,
+				33BE5C6F29C0C62C00A23BE6 /* ArrivalTimeViewModel.swift in Sources */,
+				33BE5C7029C0C62C00A23BE6 /* ArrivalTimeView.swift in Sources */,
 				33BE5C6729C0C5FE00A23BE6 /* BusStopRow.swift in Sources */,
 				33BE5C5F29C0C50300A23BE6 /* BusStop.swift in Sources */,
 				33BE5C5729C0C4C300A23BE6 /* Endpoints.swift in Sources */,
