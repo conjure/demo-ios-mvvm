@@ -19,6 +19,9 @@
 		33BE5C5E29C0C50300A23BE6 /* ArrivalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5C29C0C50300A23BE6 /* ArrivalTime.swift */; };
 		33BE5C5F29C0C50300A23BE6 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5D29C0C50300A23BE6 /* BusStop.swift */; };
 		33BE5C6129C0C55F00A23BE6 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6029C0C55F00A23BE6 /* LocationService.swift */; };
+		33BE5C6729C0C5FE00A23BE6 /* BusStopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6429C0C5FE00A23BE6 /* BusStopRow.swift */; };
+		33BE5C6829C0C5FE00A23BE6 /* BusStopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6529C0C5FE00A23BE6 /* BusStopViewModel.swift */; };
+		33BE5C6929C0C5FE00A23BE6 /* BusStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C6629C0C5FE00A23BE6 /* BusStopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		33BE5C5C29C0C50300A23BE6 /* ArrivalTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivalTime.swift; sourceTree = "<group>"; };
 		33BE5C5D29C0C50300A23BE6 /* BusStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
 		33BE5C6029C0C55F00A23BE6 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		33BE5C6429C0C5FE00A23BE6 /* BusStopRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopRow.swift; sourceTree = "<group>"; };
+		33BE5C6529C0C5FE00A23BE6 /* BusStopViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopViewModel.swift; sourceTree = "<group>"; };
+		33BE5C6629C0C5FE00A23BE6 /* BusStopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 			children = (
 				33BE5C4E29C0C47F00A23BE6 /* API */,
 				33BE5C5B29C0C4EF00A23BE6 /* Domain */,
+				33BE5C6229C0C5C800A23BE6 /* View */,
 				33BE5C6029C0C55F00A23BE6 /* LocationService.swift */,
 				33BE5C4029C0C3BF00A23BE6 /* BusTimes_MVVMApp.swift */,
 				33BE5C4429C0C3C100A23BE6 /* Assets.xcassets */,
@@ -105,6 +112,24 @@
 				33BE5C5D29C0C50300A23BE6 /* BusStop.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		33BE5C6229C0C5C800A23BE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33BE5C6329C0C5E400A23BE6 /* BusStopView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33BE5C6329C0C5E400A23BE6 /* BusStopView */ = {
+			isa = PBXGroup;
+			children = (
+				33BE5C6429C0C5FE00A23BE6 /* BusStopRow.swift */,
+				33BE5C6629C0C5FE00A23BE6 /* BusStopView.swift */,
+				33BE5C6529C0C5FE00A23BE6 /* BusStopViewModel.swift */,
+			);
+			path = BusStopView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +207,11 @@
 				33BE5C6129C0C55F00A23BE6 /* LocationService.swift in Sources */,
 				33BE5C5629C0C4C300A23BE6 /* Networkable.swift in Sources */,
 				33BE5C5A29C0C4C300A23BE6 /* NetworkManager.swift in Sources */,
+				33BE5C6929C0C5FE00A23BE6 /* BusStopView.swift in Sources */,
+				33BE5C6829C0C5FE00A23BE6 /* BusStopViewModel.swift in Sources */,
 				33BE5C5E29C0C50300A23BE6 /* ArrivalTime.swift in Sources */,
 				33BE5C5929C0C4C300A23BE6 /* Coordinates.swift in Sources */,
+				33BE5C6729C0C5FE00A23BE6 /* BusStopRow.swift in Sources */,
 				33BE5C5F29C0C50300A23BE6 /* BusStop.swift in Sources */,
 				33BE5C5729C0C4C300A23BE6 /* Endpoints.swift in Sources */,
 				33BE5C5529C0C4C300A23BE6 /* APIError.swift in Sources */,
