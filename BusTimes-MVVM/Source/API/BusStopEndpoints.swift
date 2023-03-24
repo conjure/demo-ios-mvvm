@@ -1,6 +1,6 @@
 //
 //  BusStopEndpoints.swift
-//  BusTimes-TCA
+//  BusTimes-MVVM
 //
 //  Created by Ade Adegoke on 14/03/2023.
 //
@@ -40,16 +40,5 @@ extension BusStopEndpoint: Endpoint {
         case .arrivals:
             return []
         }
-    }
-}
-
-extension Endpoint {
-    internal var url: URL {
-        var urlStr = baseURL + "/" + path
-        urlStr = urlStr.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
-
-        var url = URL(string: urlStr)!
-        url.append(queryItems: queryItems)
-        return url
     }
 }

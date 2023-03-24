@@ -1,6 +1,6 @@
 //
 //  Coordinates.swift
-//  BusTimes-TCA
+//  BusTimes-MVVM
 //
 //  Created by Ade Adegoke on 14/03/2023.
 //

@@ -12,7 +12,7 @@
 		33BE5C4829C0C3C100A23BE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BE5C4729C0C3C100A23BE6 /* Preview Assets.xcassets */; };
 		33BE5C5529C0C4C300A23BE6 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C4F29C0C4C200A23BE6 /* APIError.swift */; };
 		33BE5C5629C0C4C300A23BE6 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5029C0C4C200A23BE6 /* Networkable.swift */; };
-		33BE5C5729C0C4C300A23BE6 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5129C0C4C300A23BE6 /* Endpoints.swift */; };
+		33BE5C5729C0C4C300A23BE6 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5129C0C4C300A23BE6 /* Endpoint.swift */; };
 		33BE5C5829C0C4C300A23BE6 /* BusStopEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5229C0C4C300A23BE6 /* BusStopEndpoints.swift */; };
 		33BE5C5929C0C4C300A23BE6 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5329C0C4C300A23BE6 /* Coordinates.swift */; };
 		33BE5C5A29C0C4C300A23BE6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE5C5429C0C4C300A23BE6 /* NetworkManager.swift */; };
@@ -35,7 +35,7 @@
 		33BE5C4729C0C3C100A23BE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33BE5C4F29C0C4C200A23BE6 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		33BE5C5029C0C4C200A23BE6 /* Networkable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
-		33BE5C5129C0C4C300A23BE6 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		33BE5C5129C0C4C300A23BE6 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		33BE5C5229C0C4C300A23BE6 /* BusStopEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopEndpoints.swift; sourceTree = "<group>"; };
 		33BE5C5329C0C4C300A23BE6 /* Coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		33BE5C5429C0C4C300A23BE6 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -84,7 +84,6 @@
 				33BE5C4E29C0C47F00A23BE6 /* API */,
 				33BE5C5B29C0C4EF00A23BE6 /* Domain */,
 				33BE5C6229C0C5C800A23BE6 /* View */,
-				33BE5C6029C0C55F00A23BE6 /* LocationService.swift */,
 				33BE5C7129C0C73400A23BE6 /* Constants.swift */,
 				33BE5C4029C0C3BF00A23BE6 /* BusTimes_MVVMApp.swift */,
 				33BE5C4429C0C3C100A23BE6 /* Assets.xcassets */,
@@ -107,8 +106,9 @@
 				33BE5C4F29C0C4C200A23BE6 /* APIError.swift */,
 				33BE5C5229C0C4C300A23BE6 /* BusStopEndpoints.swift */,
 				33BE5C5329C0C4C300A23BE6 /* Coordinates.swift */,
-				33BE5C5129C0C4C300A23BE6 /* Endpoints.swift */,
+				33BE5C5129C0C4C300A23BE6 /* Endpoint.swift */,
 				33BE5C5029C0C4C200A23BE6 /* Networkable.swift */,
+				33BE5C6029C0C55F00A23BE6 /* LocationService.swift */,
 				33BE5C5429C0C4C300A23BE6 /* NetworkManager.swift */,
 			);
 			path = API;
@@ -237,7 +237,7 @@
 				33BE5C7029C0C62C00A23BE6 /* ArrivalTimeView.swift in Sources */,
 				33BE5C6729C0C5FE00A23BE6 /* BusStopRow.swift in Sources */,
 				33BE5C5F29C0C50300A23BE6 /* BusStop.swift in Sources */,
-				33BE5C5729C0C4C300A23BE6 /* Endpoints.swift in Sources */,
+				33BE5C5729C0C4C300A23BE6 /* Endpoint.swift in Sources */,
 				33BE5C5529C0C4C300A23BE6 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
