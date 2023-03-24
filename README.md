@@ -1,7 +1,6 @@
 # Demo MVVM Project 
 
-This project was developed for the purpose of conducting a comparative analysis against a project utilizing the Composable Architecture framework. 
-You can view the TCA project [here.](https://github.com/conjure/demo-ios-tca)
+This is a demo project that provides the user with information on bus tops that are local to the user.  
 
 ## Requirements
 This project requires that you enable location services on your device. Also, you will need to get a Transport for London API id and key from their developer's webpage.
